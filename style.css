@@ -1,0 +1,34 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.button{
+	width: 50px;
+	height: 50px;
+	font-size: 25px;
+	margin: 2px;
+	cursor: pointer;
+	border: none;
+	background: teal;
+	color: white;
+
+}
+.textview{
+	width: 205px;
+	margin: 5px;
+	font-size: 25px;
+	padding: 5px;
+	border: 1px solid #607d8b;
+	color: #607d8b;
+}
+.main{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+}
+.bga{
+	background: linear-gradient(to bottom,black,red);
+	height: 658px;
+	
+}
